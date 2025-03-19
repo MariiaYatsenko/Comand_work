@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+        integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@300;400;500&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Explore the High Seas with Our Luxury Yacht Rentals</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header-container">
+            <nav class="header-nav">
+                <a href="./index.html" class="logo logo-header">yachtjet </a>
+                <ul class="header-list">
+                    <li class="item-list-link">
+                        <a href="./index.html" class="header-link current">About</a>
+                    </li>
+                    <li class="item-list-link">
+                        <a href="" class="header-link">Yachts</a>
+                    </li>
+                    <li class="item-list-link">
+                        <a href="" class="header-link">Reviews</a>
+                    </li>
+                </ul>
+                <ul class="social-links-list">
+                    <li class="social-item">
+                        <a href="https://www.instagram.com/goitclub/" class="link-icon"><svg class="icon" width="24"
+                                height="24">
+                                <use href="./images/sprite.svg#icon-instagram"></use>
+                            </svg></a>
+                    </li>
+                    <li class="social-item">
+                        <a href="https://www.youtube.com/c/GoIT" class="link-icon"><svg class="icon" width="24"
+                                height="24">
+                                <use href="./images/sprite.svg#icon-yotube"></use>
+                            </svg></a>
+                    </li>
+                    <li class="social-item">
+                        <a href="https://www.facebook.com/goITclub/" class="link-icon"><svg class="icon" width="24"
+                                height="24">
+                                <use href="./images/sprite.svg#icon-facebook"></use>
+                            </svg></a>
+                    </li>
+                </ul>
+            </nav>
+            <button class="burger-btn" type="button" data-menu-open>
+                <svg class="burger-icon" width="28" height="28">
+                    <use href="./images/sprite.svg#icon-burger_menu"></use>
+                </svg>
+            </button>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="container hero-container">
+                <h1 class="title-hero">
+                    <span class="first-line">Explore the High</span>
+                    <span class="midle-line">Seas with Our Luxury</span> Yacht Rentals
+                </h1>
+                <p class="text-hero">
+                    Experience the freedom and luxury of yachting on the open seas.
+                    Choose from our top-of-the-line yachts and embark on an
+                    unforgettable journey surrounded by breathtaking views and
+                    state-of-the-art amenities.
+                </p>
+
+                <a href="" class="link-hero">Yacht rental</a>
+            </div>
+        </section>
+        <section class="about-us">
+            <div class="container">
+                <div class="about-us-container">
+                    <h2 class="title-about">
+                        YachtJet fleet is here to take you on the ultimate adventure
+                    </h2>
+                    <div class="text-subcontainer-about">
+                        <p class="text-one-about">
+                            From spacious decks to state-of-the-art technology, our yachts
+                            are designed to provide the perfect blend of luxury and
+                            functionality.
+                        </p>
+                        <p class="text-second-about">
+                            Take a look at our selection below and choose the yacht that
+                            matches your needs and preferences.No matter which yacht you
+                            choose, our experienced crew will ensure that your journey is
+                            smooth and enjoyable. Book now and get ready for an
+                            unforgettable adventure on the high seas.
+                        </p>
+                    </div>
+                </div>
+                <picture class="premium-yacht-img">
+                    <source srcset="
+                ./images/about-us/premium-mob.jpg    1x,
+                ./images/about-us/premium-mob@2x.jpg 2x
+              " media="(max-width: 767px)" />
+                    <source srcset="
+                ./images/about-us/premium-tab.jpg    1x,
+                ./images/about-us/premium-tab@2x.jpg 2x
+              " media="(min-width: 768px)" />
+                    <source srcset="
+                ./images/about-us/premium.jpg    1x,
+                ./images/about-us/premium@2x.jpg 2x
+              " media="(min-width: 1280px)" />
+
+                    <img class="img" src="./images/about-us/premium.jp" alt="premium-yacht" width="1340" height="470" />
+                </picture>
+            </div>
+        </section>
+        <section>
+            <div class="container"></div>
+        </section>
+        <section>
+            <div class="container"></div>
+        </section>
+        <section>
+            <div class="container"></div>
+        </section>
+        <section>
+            <div class="container"></div>
+        </section>
+    </main>
+    <footer>
+        <div class="container visually-hidden">
+            "- Header - Hero - About us - Our yachts - Advantages - Rent a yacht -
+            Reviews - Footer"
+        </div>
+    </footer>
+</body>
+
+</html>
